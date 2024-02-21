@@ -1,0 +1,39 @@
+.skills{
+    display: none;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.skills_details{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1rem 0;
+
+    overflow-y: scroll;
+    height: calc(100vh - 140px);
+}
+
+.skills_details > div{
+    margin: 20px;
+    width: 100%;
+    max-width: 350px;
+}
+
+.skills_details::-webkit-scrollbar {
+    width: 10px; /* Set the width of the scrollbar */
+}
+
+.skills_details::-webkit-scrollbar-track {
+    background-color: black; /* Set the background color of the scrollbar track */
+}
+
+.skills_details::-webkit-scrollbar-thumb {
+    background-color: #ff9e3c; /* Set the color of the scrollbar thumb */
+}
+
+.skills > div{
+    text-align: initial;
+    padding-bottom: 100px;
+}

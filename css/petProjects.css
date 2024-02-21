@@ -1,0 +1,45 @@
+.pet_projects{
+    display: none;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.show {
+    display: block;
+    animation: slideIn 0.5s ease-in-out forwards;
+}
+
+.pet_projects_details{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    margin: 1rem 0;
+
+    overflow-y: scroll;
+    height: calc(100vh - 220px);
+}
+
+.pet_projects_details::-webkit-scrollbar {
+    width: 10px; /* Set the width of the scrollbar */
+}
+
+.pet_projects_details::-webkit-scrollbar-track {
+    background-color: black; /* Set the background color of the scrollbar track */
+}
+
+.pet_projects_details::-webkit-scrollbar-thumb {
+    background-color: #ff9e3c; /* Set the color of the scrollbar thumb */
+}
+
+.pet_projects_details_item{
+    text-align: left;
+    padding: 10px;
+    margin: 20px;
+    width: 100%;
+    max-width: 450px;
+    height: min-content;
+
+    border-radius: 10px;
+    border: 1px solid #ff9e3c;
+}
